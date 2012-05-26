@@ -1,0 +1,19 @@
+body{
+	border : 2px solid red ;
+	width : 600px ;
+	height : 500px;
+	margin : 0 auto ; /*body auto center*/
+}
+
+.div1{
+	width : 70px ;
+	height : 72px ;
+	border :1px solid blue ;
+	margin : 5px 0px 0px 5px ;
+}
+
+.div1 img{
+	width : 60px ;
+	height : 60px ;
+	margin : 5px 0px 0px 5px ;
+}
