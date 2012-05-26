@@ -1,0 +1,48 @@
+body{
+	border : 2px solid red ;
+	margin : 0 auto ;
+	font-size : 12px ;
+	width : 500px ;
+	height : 400px ;
+	padding : 30px ;
+}
+span{
+	font-size : 30px ;
+	font-weight: bolder ;
+}
+.div1{
+	width : 500px ;
+	height : 300px ;
+	border :1px solid black ;
+	margin : 5px 0px 0px 5px ;
+	padding-top : 40px ;
+}
+.faceul{
+	width : 395px ;
+	height : 220px ;
+	margin : 0px auto ;
+	border : 1px solid green ;
+	padding-left : 5px ;
+}
+
+.faceul li{
+	background-color : #af3737 ;
+	list-style-type : none ;
+	border : 1px solid red ;
+	float : left ;
+	width : 70px ;
+	height : 90px ;
+	margin : 5px 0px 10px 5px ;
+	
+}
+
+.faceul img{
+	width : 60px ;
+	height : 65px ;
+	margin : 5px 0px 0px 5px ;
+}
+
+.faceul a{
+	margin : 0px 0px 0px 10px ;
+	color : #ffffff ;
+}
