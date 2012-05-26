@@ -1,0 +1,78 @@
+/*html selector*/
+body{
+	color : orange ;
+}
+
+a:link{
+	color : black ;
+	text-decoration : none ;
+	font-size : 24px ;
+}
+a:hover{
+	text-decoration : underline ;
+	color : green ;
+	font-size : 30px ;
+	font-weight : bolder ;
+}
+a:visited{
+	color : red ;
+}
+
+p.cls1{
+	color : blue ;
+	font-size : 20px 
+}
+p.cls2{
+	color : red ;
+	font-size : 23px ;
+	'
+}
+/*class selector*/
+.s1{
+	background-color : pink ;
+	font-weight : bold ;
+	font-size : 18px ;
+	color : black ;
+}
+/* id selector*/
+#id1{
+	background-color : gray ;
+	font-size : 40px ;
+	color : black ;
+}
+
+/*父子选择器*/
+#id1 span{
+	color : red;
+	font-style : italic ;
+}
+#id1 span span{
+	color : green ;
+	font-size : 60px ;
+	font-weight : bolder ;
+}
+/*通配符选择器*/
+*{
+	/*margin-top : 10px ;
+	margin-left : 0px ;*/
+	/*shang xia zuo you */
+	/*margin : 10px 20px 30px 50px ;*/
+	/*shang xia zuo you */
+	/*margin : 10px;*/
+	/*shang&xia 10px zuoyou 20px*/
+	/*margin : 10px 20px ;*/
+	margin : 0px ;
+	padding : 0px ;
+}
+/*新闻一特别修饰*/
+#news{
+	color : red ;
+	font-style : italic ; 
+}
+/*s2一个元素可以对应多个类选择器*/
+.s2{
+	background-color : green ;
+	text-decoration : underline ;
+	font-style : italic ;
+	color : silver ;
+}
