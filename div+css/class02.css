@@ -1,0 +1,19 @@
+.s1{
+	color : green ;
+	font-size : 30px ;
+	font-style : italic ;
+	text-decoration : underline ;
+	font-weight : bolder ;
+}
+.s2{
+	color : yellow ;
+	font-size : 12px ;
+}
+.s3{
+	color : bule ;
+	font-style : italic ;
+}
+.s4{
+	color : #6b4646
+	font-weight : bolder ;
+}
