@@ -7,3 +7,4 @@ app/config/database.php
 *.jpg
 *.png
 *.gif
+.idea/*
