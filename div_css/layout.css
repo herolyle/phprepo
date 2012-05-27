@@ -5,7 +5,7 @@ body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div
 }
 
 body{
-	background-color : none repeat scroll 0 #FFFFFF;
+	background : none repeat scroll 0 #FFFFFF;
 	color :#333333;
 	font-family : "SimSun","宋体","Arial Narrow" ;
 	font-size : 12px ;
@@ -14,7 +14,7 @@ body{
 
 /*主div*/
 #page{
-	background-color : none repeat scroll 0 #FFFFFF;
+	background : none repeat scroll 0 #FFFFFF;
 	margin :0 auto ;
 	overflow : visible ;
 	width : 950px ;
@@ -90,7 +90,7 @@ body{
 	left : 0 ;
 	opacity: 0.9 ;
 	overflow : hidden ;
-	padding 5px 0 ;
+	padding : 5px 0 ;
 	position : absolute ;
 	top : 18px ;
 	width : 97px ;
