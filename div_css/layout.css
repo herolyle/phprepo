@@ -1,0 +1,105 @@
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img, div{
+	border : 1px red ;
+	margin :0 ;
+	padding :0 ;
+}
+
+body{
+	background-color : none repeat scroll 0 #FFFFFF;
+	color :#333333;
+	font-family : "SimSun","宋体","Arial Narrow" ;
+	font-size : 12px ;
+	margin-top : 5px ;
+}
+
+/*主div*/
+#page{
+	background-color : none repeat scroll 0 #FFFFFF;
+	margin :0 auto ;
+	overflow : visible ;
+	width : 950px ;
+}
+/*工具&状态栏*/
+.top{
+	background : url("bk.gif") repeat-x scroll 0 0 #FFFFFF;
+	border-color : #FDD26C #FDD26C #E1A841 ;
+	border-style : solid ;
+	border-width : 1px ;
+	color : #000000;
+	height : 27px ;
+	position : relative;
+	z-index :99 ;
+	padding : 1px;
+	-moz-border-image : none ;
+	-moz-border-top-colors : none ;
+}
+
+.top a,.top a:visited{
+	color : #000000 ;
+	text-decoration : none ;
+}
+
+.top a:hover, .top a.active{
+	color : #000000 ;
+	text-decoration : underline ;
+}
+
+.topBlk{
+	 background : url("bk.gif") repeat-x scroll 0 -50px #FDC145;
+	 height : 27px ;
+}
+
+.logintext{
+	float : left ;
+	height : 27px ;
+	line-height : 29px ;
+	padding:0 0 0 15px ;
+	overflow : hidden ;
+}
+
+#logonselect{
+	float : left ;
+	left : 0 ;
+	margin : 4px 0 0 10px ;
+	position : relative ;
+	top : 0 ;
+}
+.loginselect{
+	left : 278px ;
+	position : absolute ;
+	top : 6px ;
+	width : 100px ;
+	z-index :9999;
+}
+.loginselect .lftit{
+	background : url("tt1.gif") no-repeat scroll 0 -200px #FFFFFF;
+	border : 1px solid #FFA930 ;
+	cursor : pointer ;
+	display : block ;
+	height : 17px ;
+	line-height : 17px ;
+	overflow : hidden ;
+	padding : 0 18px 0 0 ;
+	text-align : center ;
+	width : 79px ;
+}
+
+.loginselect ul{
+	background : url("tt2.gif") repeat-x scroll 0 -150px #FFFCF5;
+	border : 1px solid #FDAD34 ;
+	left : 0 ;
+	opacity: 0.9 ;
+	overflow : hidden ;
+	padding 5px 0 ;
+	position : absolute ;
+	top : 18px ;
+	width : 97px ;
+}
+
+.loginselect li{
+	display : block ;
+	height : 20px ;
+	margin : 0 6px ;
+	overflow : hidden ;
+	padding-left : 12px ;
+}
